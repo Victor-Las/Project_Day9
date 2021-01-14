@@ -68,11 +68,12 @@ def repartition (journalists)
   puts
 end
 
-
+#Menu questions
 def answer_questions
   question_number = 1
   while question_number != 0
     journalists = journalists_list
+    puts '-' * 100
     puts "A quelle question voulez-vous répondre ?"
     puts "1: Combien y a-t-il de handle dans cette array ?"
     puts "2: Quel est le handle le plus court de cette liste ?"
@@ -120,5 +121,6 @@ def answer_questions
   puts "A bientôt !"
 end
 
+#Lance le programme
 answer_questions
 
